@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="8" failures="0" disabled="0" errors="0" time="0.001" timestamp="2021-09-20T21:36:50" name="AllTests">
+  <testsuite name="DiceTest" tests="3" failures="0" disabled="0" errors="0" time="0" timestamp="2021-09-20T21:36:50">
+    <testcase name="RollDiceAndGetValue" status="run" result="completed" time="0" timestamp="2021-09-20T21:36:50" classname="DiceTest" />
+    <testcase name="RollDiceAndGetValueTwice" status="run" result="completed" time="0" timestamp="2021-09-20T21:36:50" classname="DiceTest" />
+    <testcase name="ReRollDice" status="run" result="completed" time="0" timestamp="2021-09-20T21:36:50" classname="DiceTest" />
+  </testsuite>
+  <testsuite name="YahtzeeTest" tests="5" failures="0" disabled="0" errors="0" time="0" timestamp="2021-09-20T21:36:50">
+    <testcase name="DoesNotWantToPlay" status="run" result="completed" time="0" timestamp="2021-09-20T21:36:50" classname="YahtzeeTest" />
+    <testcase name="PlayOnce" status="run" result="completed" time="0" timestamp="2021-09-20T21:36:50" classname="YahtzeeTest" />
+    <testcase name="PlayMultipleTimes" status="run" result="completed" time="0" timestamp="2021-09-20T21:36:50" classname="YahtzeeTest" />
+    <testcase name="PlaysWithoutYahtzee" status="run" result="completed" time="0" timestamp="2021-09-20T21:36:50" classname="YahtzeeTest" />
+    <testcase name="PlaysUntilYahtzee" status="run" result="completed" time="0" timestamp="2021-09-20T21:36:50" classname="YahtzeeTest" />
+  </testsuite>
+</testsuites>

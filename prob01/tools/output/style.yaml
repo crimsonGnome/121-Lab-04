@@ -1,0 +1,129 @@
+---
+MainSourceFile:  '/home/crimsongnome/Desktop/lab-04-crimsonGnome/prob01/main.cc'
+Diagnostics:
+  - DiagnosticName:  clang-analyzer-core.CallAndMessage
+    DiagnosticMessage:
+      Message:         1st function call argument is an uninitialized value
+      FilePath:        main.cc
+      FileOffset:      1203
+      Replacements:    []
+    Notes:
+      - Message:         '''red'' declared without an initial value'
+        FilePath:        main.cc
+        FileOffset:      639
+        Replacements:    []
+      - Message:         Assuming the condition is false
+        FilePath:        main.cc
+        FileOffset:      805
+        Replacements:    []
+      - Message:         Loop condition is false. Execution continues on line 54
+        FilePath:        main.cc
+        FileOffset:      789
+        Replacements:    []
+      - Message:         1st function call argument is an uninitialized value
+        FilePath:        main.cc
+        FileOffset:      1203
+        Replacements:    []
+  - DiagnosticName:  clang-analyzer-core.CallAndMessage
+    DiagnosticMessage:
+      Message:         2nd function call argument is an uninitialized value
+      FilePath:        main.cc
+      FileOffset:      1203
+      Replacements:    []
+    Notes:
+      - Message:         '''green'' declared without an initial value'
+        FilePath:        main.cc
+        FileOffset:      650
+        Replacements:    []
+      - Message:         Assuming the condition is true
+        FilePath:        main.cc
+        FileOffset:      805
+        Replacements:    []
+      - Message:         Loop condition is true.  Entering loop body
+        FilePath:        main.cc
+        FileOffset:      789
+        Replacements:    []
+      - Message:         '''i'' is equal to 0'
+        FilePath:        main.cc
+        FileOffset:      940
+        Replacements:    []
+      - Message:         Taking true branch
+        FilePath:        main.cc
+        FileOffset:      936
+        Replacements:    []
+      - Message:         Assuming the condition is false
+        FilePath:        main.cc
+        FileOffset:      805
+        Replacements:    []
+      - Message:         Loop condition is false. Execution continues on line 54
+        FilePath:        main.cc
+        FileOffset:      789
+        Replacements:    []
+      - Message:         2nd function call argument is an uninitialized value
+        FilePath:        main.cc
+        FileOffset:      1203
+        Replacements:    []
+  - DiagnosticName:  clang-analyzer-core.CallAndMessage
+    DiagnosticMessage:
+      Message:         3rd function call argument is an uninitialized value
+      FilePath:        main.cc
+      FileOffset:      1203
+      Replacements:    []
+    Notes:
+      - Message:         '''blue'' declared without an initial value'
+        FilePath:        main.cc
+        FileOffset:      663
+        Replacements:    []
+      - Message:         Assuming the condition is true
+        FilePath:        main.cc
+        FileOffset:      805
+        Replacements:    []
+      - Message:         Loop condition is true.  Entering loop body
+        FilePath:        main.cc
+        FileOffset:      789
+        Replacements:    []
+      - Message:         '''i'' is equal to 0'
+        FilePath:        main.cc
+        FileOffset:      940
+        Replacements:    []
+      - Message:         Taking true branch
+        FilePath:        main.cc
+        FileOffset:      936
+        Replacements:    []
+      - Message:         Assuming the condition is true
+        FilePath:        main.cc
+        FileOffset:      805
+        Replacements:    []
+      - Message:         Loop condition is true.  Entering loop body
+        FilePath:        main.cc
+        FileOffset:      789
+        Replacements:    []
+      - Message:         '''i'' is not equal to 0'
+        FilePath:        main.cc
+        FileOffset:      940
+        Replacements:    []
+      - Message:         Taking false branch
+        FilePath:        main.cc
+        FileOffset:      936
+        Replacements:    []
+      - Message:         '''i'' is equal to 2'
+        FilePath:        main.cc
+        FileOffset:      1028
+        Replacements:    []
+      - Message:         Taking true branch
+        FilePath:        main.cc
+        FileOffset:      1024
+        Replacements:    []
+      - Message:         Assuming the condition is false
+        FilePath:        main.cc
+        FileOffset:      805
+        Replacements:    []
+      - Message:         Loop condition is false. Execution continues on line 54
+        FilePath:        main.cc
+        FileOffset:      789
+        Replacements:    []
+      - Message:         3rd function call argument is an uninitialized value
+        FilePath:        main.cc
+        FileOffset:      1203
+        Replacements:    []
+...
